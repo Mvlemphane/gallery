@@ -1,0 +1,23 @@
+/* style.css */
+
+/* Style for containers */
+.container {
+    -fx-display: grid;
+    -fx-grid-template-columns: 50% 50%; /* Two columns each taking up 50% of the width */
+    -fx-gap: 10px; /* Gap between items */
+}
+
+/* Style for main display */
+#mainDisplay {
+    -fx-grid-column: 1 / 3; /* Span across two columns */
+    -fx-margin-top: 10px;
+    -fx-border: 2px solid #333;
+}
+
+/* Style for buttons */
+#Button {
+    -fx-margin-top: 10px;
+}
+.root {
+    -fx-background-color: black; /* Change background color to light gray */
+}
